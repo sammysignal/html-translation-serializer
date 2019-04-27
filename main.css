@@ -1,0 +1,27 @@
+
+
+textarea {
+  margin: 50px;
+  height: 200px;
+  width: calc(100% - 100px);
+  display: block;
+  font-size: 12pt;
+  resize: none;
+}
+
+.inner-container {
+  float: left;
+  text-align: center;
+}
+
+.inner-container.top {
+  width: 50%;
+}
+
+.inner-container.bottom {
+  width: 100%;
+}
+
+textarea.template {
+  outline: none !important;
+}
